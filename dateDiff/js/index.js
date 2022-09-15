@@ -1,0 +1,5 @@
+import './timer.js'
+import './main.js'
+import './switchingBetweenSections.js'
+import timer from '../timer.mp3'
+import '../style.css'

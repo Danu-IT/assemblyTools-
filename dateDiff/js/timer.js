@@ -5,9 +5,9 @@ const stop = document.querySelector('#timer__btnStop');
 let timeMinute = '';
 let timer;
 
-const sound = new Howl({
-    src: ['/audio/timer.mp3']
-});
+// const sound = new Howl({
+//     src: ['/timer.mp3']
+// });
 
 start.addEventListener('click', () => {
     if(timeMinute == ''){
@@ -20,7 +20,7 @@ start.addEventListener('click', () => {
         let strTimer;
 
         if(timeMinute <= 0){
-            sound.play();
+            // sound.play();
             alert('Таймер закончил отсчет');
             timerShow.innerHTML = '';
             timerInput.value = '';
